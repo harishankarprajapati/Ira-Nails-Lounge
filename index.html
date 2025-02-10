@@ -157,11 +157,13 @@
                             you’ll be so glad you did.</p>
 
                             <div class="secicontext">
-                                <p>Tailored treatments for every client;</p>
-                                <p>A range of high-quality beauty services;</p>
-                                <p>Top-rated by our clients.</p>
+                                <p><i class="bi bi-check"></i> Tailored treatments for every client;</p>
+                                <p><i class="bi bi-check"></i> A range of high-quality beauty services;</p>
+                                <p><i class="bi bi-check"></i> Top-rated by our clients.</p>
                             </div>
-                            
+                            <div class="sechomebtn3">
+                                <a href="#">more about us</a>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -169,25 +171,53 @@
         </div>
      
      </div>
-
-
-
-
-
-
     <!-- video -->
-    <!-- <div class="container-fluid aecbggvideo">
-        <div class="container aecbggvideo2">
-            <video controls poster="/images/video-img.png">
+    <div class="container-fluid aecbggvideo px-0 py-4">
+            <video  controls poster="/images/video-img.png" style="width: 100%;">
                 <source src="movie.mp4" type="video/mp4">
                 <source src="movie.ogg" type="video/ogg">
                 Your browser does not support the video tag.
             </video>
-        </div> -->
-
-
     </div>
-
+    <!-- secrating -->
+    <div class="container-fluid secratbg">
+        <div class="row m-0">
+            <div class="col-md-6">
+                <div class="secratigntab">
+                    <!-- <nav>
+                        <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+                            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+                            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content p-3 border bg-light" id="nav-tabContent">
+                        <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <p><strong>This is some placeholder content the Home tab's associated content.</strong>
+                                Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps
+                                classes to control the content visibility and styling. You can use it with tabs, pills, and any
+                                other <code>.nav</code>-powered navigation.</p>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <p><strong>This is some placeholder content the Profile tab's associated content.</strong>
+                                Clicking another tab will toggle the visibility of this one for the next.
+                                The tab JavaScript swaps classes to control the content visibility and styling. You can use it with
+                                tabs, pills, and any other <code>.nav</code>-powered navigation.</p>
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <p><strong>This is some placeholder content the Contact tab's associated content.</strong>
+                                Clicking another tab will toggle the visibility of this one for the next.
+                                The tab JavaScript swaps classes to control the content visibility and styling. You can use it with
+                                tabs, pills, and any other <code>.nav</code>-powered navigation.</p>
+                        </div>
+                    </div> -->
+                </div>                
+            </div>
+            <div class="col-md-6 secpasimstar">
+                <img class="img-fluid" src="images/secratingbg.png" alt="">
+            </div>
+        </div>
+    </div>
 
 
 
@@ -211,126 +241,7 @@
     <script src="js/owl.carousel.min.js" type="text/javascript"></script>
     <script src="js/include-html.min.js"></script>
 
-    <script>
 
-        $('.owl-carousel.footerslider').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 2
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 6
-                }
-            }
-        })
-
-
-
-
-        $('.owl-carousel.testimonial').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            dots: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 1
-                },
-                1000: {
-                    items: 1
-                }
-            }
-        })
-
-
-        $('.owl-carousel.classes').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            dots: true,
-            responsive: {
-                0: {
-                    items: 1.25
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 4
-                }
-            }
-        })
-
-
-
-
-        $(document).ready(function ($) {
-            $(".owl-carousel.homeslider").owlCarousel({
-                loop: true,
-                autoplay: true,
-                items: 1,
-                nav: true,
-                navigationText: 'homesnav',
-                autoplayHoverPause: true,
-                animateOut: 'slideOutUp',
-                animateIn: 'slideInUp'
-
-            });
-            var owl = $(".owl-carousel.homeslider");
-            owl.owlCarousel();
-            $(".next-btn").click(function () {
-                owl.trigger("next.owl.carousel");
-            });
-            $(".prev-btn").click(function () {
-                owl.trigger("prev.owl.carousel");
-            });
-            $(".prev-btn").addClass("disabled");
-            $(owl).on("translated.owl.carousel", function (event) {
-                if ($(".owl-prev").hasClass("disabled")) {
-                    $(".prev-btn").addClass("disabled");
-                } else {
-                    $(".prev-btn").removeClass("disabled");
-                }
-                if ($(".owl-next").hasClass("disabled")) {
-                    $(".next-btn").addClass("disabled");
-                } else {
-                    $(".next-btn").removeClass("disabled");
-                }
-            });
-        });
-
-
-
-
-
-
-
-
-        $(document).ready(function () {
-
-            $('.counter').each(function () {
-                $(this).prop('Counter', 0).animate({
-                    Counter: $(this).text()
-                }, {
-                    duration: 4000,
-                    easing: 'swing',
-                    step: function (now) {
-                        $(this).text(Math.ceil(now));
-                    }
-                });
-            });
-
-        });
-    </script>
 </body>
 
 </html>

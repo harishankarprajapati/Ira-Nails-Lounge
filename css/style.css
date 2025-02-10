@@ -325,6 +325,37 @@ a {
    font-size: 18px;
    color: #fff;
 }
+.secicontext p i{
+   background-color: #A38AAC;
+   border-radius: 50px;
+   padding: 0px 2px;
+}
 
-
+.sechomebtn3{
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding-left: 0px;
+}
+.sechomebtn3 a{
+   font-family: 'Figtree' ;
+   color: #000;
+   font-size: 18px;
+   font-weight: 500;
+   text-transform: uppercase;
+   border: 1px solid #fff;
+   padding: 12px 32px;
+   background-color: #fff;
+}
+.sechomebtn3 a:hover{
+   background-color: #000;
+   border: 1px solid #000;
+   color: #fff;
+}
+.secratbg{
+   background: #310B3F;
+   padding:0px;
+}
+.secpasimstar{
+   padding-right: 0;
+}
 
