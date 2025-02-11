@@ -13,11 +13,22 @@
     background-size: contain;
     background: #715E78;
  }
-
-  /* .secwhitpad{
-  width: 1480px !important;
-  margin: auto;
-} */
+ .clearfix p {
+  font-size: 40px;
+ }
+ .clearfix {
+  height: 600px;
+}
+.clearfix p i{
+  font-size: 30px;
+}
+.beautyslider .owl-nav {
+  margin-top: -296px;
+  margin-bottom: 255px
+}
+.secfooterlogo {
+  width: 65%;
+}
 }
 
 
