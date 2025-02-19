@@ -6,6 +6,11 @@
     width: 1903px;
     margin: auto;
   }
+  .homesocal {
+    position: absolute;
+    top: 400px;
+    left: 94px;
+}
   .secexclbg{
     background-image: url(../images/Exclusive-bggbigscreen.png) !important;
     background-position: left;
