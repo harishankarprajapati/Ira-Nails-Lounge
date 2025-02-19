@@ -879,3 +879,15 @@ input#email {
 .secmibmar {
    padding-left: 100px;
 }
+ .secpaddhab2{
+   padding: 80px 10px;
+ }
+ .secabuhomtext2{
+   width: 100%;
+}
+.secabuhomtext2 p{
+   font-family: 'Figtree' ;
+   color: #fff;
+   font-size: 25px;
+   padding-left: 80px;
+}
