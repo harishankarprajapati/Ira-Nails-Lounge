@@ -899,3 +899,20 @@ input#email {
    padding: 80px 10px;
    margin-top: 50px;
 }
+.secexclbg3{
+   background-image: url(../images/Exclusive-bggabout2.png) !important;
+   background-position: right !important;
+   background-repeat: no-repeat !important;
+   background-size: contain !important ;
+   padding: 80px 10px;
+   margin-top: 50px;
+}
+.secabuhomtext3 p {
+   font-family: 'Figtree';
+   color: #000;
+   font-size: 20px;
+   padding-right: 80px;
+}
+.secabuhomtext3 i {
+   color: #fff;
+}
