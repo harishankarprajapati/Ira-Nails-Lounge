@@ -43,7 +43,21 @@
 
 
 /*  */
-@media only screen and (max-width:999px) {}
+@media only screen and (max-width:991px) {
+  .secmiss {
+    font-size: 35px;
+}
+.secmibmar {
+  padding-left: 10px;
+}
+.secabuhomtext p {
+  font-size: 20px;
+  padding-left: 0px;
+}
+.secaboutbggal {
+  padding: 50px 10px;
+}
+}
 
 
 
@@ -228,6 +242,58 @@
 .secfooterlogo {
   width: 65%;
   padding-bottom: 6px;
+}
+.gallery_container {
+  padding: 50px 10px;
+}
+.secbooka {
+  font-size: 38px;
+}
+.sec-contact-padding {
+  padding: 50px 0px;
+}
+.secmobile22 {
+  padding-top: 40px;
+}
+.sec-sev-book-h {
+  font-size: 18px;
+}
+.sec-sev-book-p {
+  text-align: center;
+}
+.sec-menu-btn22 {
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 11px 15px;
+}
+.sec-cent-c {
+  margin-bottom: 0px;
+}
+.sec-bord-serv {
+  text-align: center;
+}
+.secsedserv {
+  padding: 20px 10px;
+} 
+.serbook {
+  padding: 50px 0px;
+}
+.secmiss {
+  font-size: 26px;
+  color: #000;
+}
+.secmibbtext p, .secmiss2 {
+  font-size: 16px;
+}
+.secmibbtext h4 {
+  font-size: 25px;
+}
+.secaboutbggal {
+  background: #FFF7EF;
+  padding: 50px 0px;
+}
+.secmibmar {
+  padding-left: 10px;
 }
 }
 
