@@ -769,6 +769,7 @@ input#email {
  .hover_affect_nlf:hover img {
    opacity: 0.5;
  }
+
  
  /* gallery end */
 
@@ -842,4 +843,39 @@ input#email {
    padding: 10px;
    margin: 0;
  }
- 
+ video {
+   width: 100%;
+}
+.secvideobg {
+   margin-top: -80px;
+}
+.secaboutbggal {
+   background: #FFF7EF;
+   padding: 80px 10px;
+}
+.secmiss {
+   font-family: 'Figtree';
+   font-size: 50px;
+   color: #000;
+}
+.secmiss2 {
+   font-family: 'Figtree';
+   font-size: 18px;
+   color: #5D5D5D;
+}  
+.secmibbtext h4 {
+   font-family: 'Figtree';
+   font-size: 30px;
+   color: #000;
+}
+.secmibbtext p {
+   font-family: 'Figtree';
+   font-size: 18px;
+   color: #5D5D5D;
+}
+.sechr {
+   color: #E1B66F !important;
+}
+.secmibmar {
+   padding-left: 100px;
+}
