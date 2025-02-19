@@ -18,6 +18,13 @@
    background-size: cover;
    padding-bottom: 150px;
 }
+.hero-bg2{
+   padding: 0;
+   background-image: url(../images/allbgimg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 100px;
+}
 .navbar-expand-xl .navbar-nav {
    flex-direction: row;
    display: flex;
@@ -613,3 +620,226 @@ input#email {
 .secmobile{
    display: none;
 }
+
+/* serves */
+.serbook {
+   padding: 60px 0px 80px 0px;
+ }
+ 
+ #servesbok .form-group label {
+   font-family: 'Figtree' !important;
+   font-size: 18px;
+   font-weight: 700;
+   color: #000;
+ }
+ 
+ #servesbok .form-group select.form-control {
+   font-family: 'Figtree' !important;
+   font-size: 18px;
+   margin-bottom: 30px;
+   color: #000;
+   border: 1px solid #9E9E9E;
+ 
+ }
+ 
+ .secserbtn {
+   background-color: #fff;
+   border: 1px solid #000;
+   padding: 8px 24px;
+   border-radius: 5px;
+   font-size: 18px;
+   font-family: 'Figtree';
+   color: #000;
+ }
+ .secserbtn:hover {
+   background-color: #474747;
+   color: #fff;
+ }
+ 
+ .serves .owl-nav.disabled{
+   display: none;
+ }
+ .serves .owl-dots.disabled{
+   display: none;
+ }
+ .secsedserv{
+   background: #F8F8F8;
+   padding: 50px;
+ }
+ 
+ 
+ 
+ .sec-sev-book-h{
+ font-family: 'Figtree';
+ font-size: 22px;
+ color: #000;
+ }
+ .sec-sev-book-h {
+   font-family: 'Figtree';
+   font-size: 22px;
+   color: #000;
+   margin: 0;
+ }
+ 
+ .sec-sev-book-p {
+   font-family: 'Figtree';
+   font-weight: 400;
+   font-size: 20px;
+   margin: 0;
+   text-align: end;
+   color: #898989;
+ }
+ .sec-menu-btn22 {
+   background: #fff;
+   border: 1px solid #000 !important;
+   font-family: 'Figtree';
+   text-transform: capitalize;
+   font-weight: 700;
+   font-size: 18px;
+   text-align: center;
+   color: #000;
+   border-radius: 5px;
+   padding: 10px 17px;
+ }
+ 
+ .sec-menu-btn22:hover {
+   background-color: #474747;
+   color: #fff;
+ }
+ .sec-bord-serv {
+   border-bottom: 1px solid #DCDCDC;
+   padding: 20px 0px 0px 0px;
+ }
+ /* serves end */
+
+/* Gallery Styles */
+.gallery_container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 80px 10px;
+ }
+ 
+ 
+ .gallery_item {
+   margin-bottom: 5px;
+   overflow: hidden;
+ }
+ 
+ .popup-gallery a {
+   display: block;
+   width: 100%;
+   border: 1px solid #fff;
+   overflow: hidden;
+   transition: transform 0.3s ease, border-color 0.3s ease;
+ }
+ 
+ .popup-gallery a:hover {
+   transform: scale(1.05);
+   border-color: #fff;
+ }
+ 
+ .popup-gallery img {
+   display: block;
+   width: 100%;
+   object-fit: cover;
+   min-height: 250px;
+   max-height: 250px;
+ }
+
+ 
+ /* END  */
+ 
+ .singicon_btn_nlf {
+   position: absolute;
+   top: 44%;
+   bottom: 56%;
+   left: 44%;
+   right: 56%;
+   opacity: 0;
+ }
+ 
+ .singicon_btn_nlf svg {
+   color: #fff;
+ }
+ 
+ .popup-gallery a:hover .singicon_btn_nlf {
+   opacity: 1;
+ }
+ 
+ .hover_affect_nlf:hover img {
+   opacity: 0.5;
+ }
+ 
+ /* gallery end */
+
+
+
+ .container.sec404bg {
+   padding-bottom: 80px;
+}
+.secthanks{
+   padding: 80px 10px;
+}
+ 
+.sec-contact-padding {
+   padding: 60px 0px 80px 0px;
+ }
+ .sec-cont-hh {
+   font-family: 'Figtree';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   color: #202031;
+ }   
+ .form-group {
+   margin-bottom: 15px;
+   padding-left: 0px;
+ }
+ .form-control {
+   font-family: 'Figtree' !important;
+   font-size: 18px !important;
+   color: #9E9E9E !important;
+   border: 1px solid #d7d7d7;
+   border-radius: 5px;
+ }
+ .sec-menu-btn2 {
+   background: #000;
+   font-family: 'Figtree';
+   font-style: normal;
+   text-transform: capitalize;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 24px;
+   color: #fff;
+   padding: 10px 30px;
+   border-radius: 50px;
+   border: none;
+ }
+ .sec-menu-btn2:hover {
+   background: #474747;
+   color: #fff;
+ }
+ .sec-cont-pp {
+   font-family: 'Figtree';
+   font-size: 20px;
+   color: #000;
+ }
+ .seccont-add-h {
+   font-family: 'Figtree';
+   font-size: 20px;
+   font-weight: 700;
+   color: #000;
+ }
+ .seccont-add-p {
+   font-family: 'Figtree';
+   font-weight: 400;
+   font-size: 18px;
+   color: #0A142F;
+   text-decoration: none;
+ }
+ 
+ #gallerypage .gallpad {
+   padding: 10px;
+   margin: 0;
+ }
+ 
