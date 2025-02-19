@@ -580,6 +580,7 @@ input#email {
    border: 0px;
    border-radius: 0;
    box-shadow:none !important;
+   color: #806D82 !important;
    padding-left: 0;
 }
 .secfootform select  {
