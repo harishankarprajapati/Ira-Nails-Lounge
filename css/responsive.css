@@ -13,6 +13,13 @@
     background-size: contain;
     background: #715E78;
  }
+ .secexclbg2{
+  background-image: url(../images/Exclusive-bggbigscreenabout.png) !important;
+  background-position: left;
+  background-repeat: no-repeat !important;
+  background-size: contain;
+  margin-top: 80px;
+}
  .clearfix p {
   font-size: 40px;
  }
@@ -180,6 +187,10 @@
   padding-top: 30px;
 }
 .secexclbg {
+  background-position: top !important;
+  padding: 315px 0px 40px 0px;
+}
+.secexclbg2 {
   background-position: top !important;
   padding: 315px 0px 40px 0px;
 }

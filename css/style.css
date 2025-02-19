@@ -887,7 +887,15 @@ input#email {
 }
 .secabuhomtext2 p{
    font-family: 'Figtree' ;
-   color: #fff;
+   color: #000;
    font-size: 25px;
    padding-left: 80px;
+}
+.secexclbg2{
+   background-image: url(../images/Exclusive-bggabout.png) !important;
+   background-position: left !important;
+   background-repeat: no-repeat !important;
+   background-size: contain !important ;
+   padding: 80px 10px;
+   margin-top: 50px;
 }
