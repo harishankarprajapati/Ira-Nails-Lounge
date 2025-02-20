@@ -54,6 +54,9 @@
 .col-md-12.secppmm {
   padding: 0;
 }
+button.btn.secsubbg {
+  width: 28%;
+}
 }
 
 
@@ -91,13 +94,18 @@
 
 
 @media only screen and (max-width:768px) {
+
+  div#navbarOffcanvas {
+    background: #dcbbdfe3;
+}
+
+
   .sec-logo-img {
     width: 50%;
   }
   button.navbar-toggler {
     border: 1px solid #715E78;
     background: #715E78;
-    margin-top: 17px;
     height: 45px;
     padding: 13px 15px;
 
@@ -127,14 +135,14 @@
     padding: 0;
   }
   .offcanvas-header {
-    background: #000;
+    background: #715E78;
   }
   .headermenusec {
     color: #000;
   }
   .navbar-nav>li>a {
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     line-height: 40px;
   }
   .navbar-nav {
@@ -144,11 +152,10 @@
     font-size: 40px;
   }
   .homesocal {
-    position: relative;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
+   display: none;
+}
+.secpaddmm{
+  padding-top: 40px;
 }
 .secmainheader {
   padding-top: 73px;
@@ -240,8 +247,15 @@
   color: #fff;
   font-size: 18px;
 }
+.headermenusec:hover {
+  color: #000;
+}
 .clearfix {
-  height: auto;
+  padding: 50px 0px 0px 0px;
+}
+.sectextem .owl-dots {
+  text-align: center;
+  padding-bottom: 50px;
 }
 .nav-pills>li>a {
   width: 100% !important;
@@ -309,18 +323,25 @@
   font-size: 18px;
 }
 .sec-sev-book-p {
-  text-align: center;
+  text-align: left;
 }
 .sec-menu-btn22 {
   font-size: 14px;
   border-radius: 5px;
   padding: 11px 15px;
 }
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
 .sec-cent-c {
   margin-bottom: 0px;
+  text-align: end;
 }
 .sec-bord-serv {
-  text-align: center;
+  text-align: left;
+  border: 1px solid #DCDCDC;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
 }
 .secsedserv {
   padding: 20px 10px;
