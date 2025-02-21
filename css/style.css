@@ -344,7 +344,7 @@ p.secdiet img {
 
 .secexclbg {
    background-image: url(../images/Exclusive-bgg.png) !important;
-   background-position: left !important;
+   background-position: left ;
    background-repeat: no-repeat !important;
    background-size: contain !important;
    background: #715E78;
@@ -1036,7 +1036,7 @@ video {
 
 .secexclbg2 {
    background-image: url(../images/Exclusive-bggabout.png) !important;
-   background-position: left !important;
+   background-position: left ;
    background-repeat: no-repeat !important;
    background-size: contain !important;
    padding: 80px 10px;
@@ -1045,7 +1045,7 @@ video {
 
 .secexclbg3 {
    background-image: url(../images/Exclusive-bggabout2.png) !important;
-   background-position: right !important;
+   background-position: right ;
    background-repeat: no-repeat !important;
    background-size: contain !important;
    padding: 80px 10px;

@@ -230,15 +230,16 @@ button.btn.secsubbg {
 }
 .secexclbg {
   background-position: top !important;
-  padding: 315px 0px 40px 0px;
+  padding: 315px 0px 40px 0px !important;
 }
 .secexclbg2 {
   background-position: top !important;
-  padding: 358px 0px 40px 0px;
+  padding: 358px 0px 40px 0px !important;
 }
 .secexclbg3 {
-  background-position: top !important;
-  padding: 315px 0px 40px 0px;
+  background-position: top !important ;
+  padding: 315px 0px 40px 0px !important;
+  
 }
 .secratigntab {
   padding: 40px 0px;
@@ -394,9 +395,74 @@ button.btn.secsubbg {
   }
 }
  
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 999px) {
   .popup-gallery img {
     min-height: 150px;
     max-height: 150px;
   }
+  .sec-logo-img {
+    width: 31%;
+}
+.secmainheader {
+  padding-top: 97px;
+}
+.secexclbg {
+  background-position: right ;
+  padding: 0;
+}
+.secexclbg2 {
+  background-position: left ;
+  padding: 0px;
+}
+.secexclbg3 {
+  background-position: right ;
+  padding:  0px;
+}
+}
+
+
+
+@media only screen and (max-width:425px) {
+  .secmainheader {
+    padding-top: 107px;
+}
+.secpaddmm {
+  padding-top: 109px;
+}
+.secabuhomtext2 {
+  padding-top: 77px;
+  width: 100%;
+}
+.secabuhomtext3{
+  padding-top: 112px;
+}
+}
+@media only screen and (max-width:375px) {
+  .secmainheader {
+    padding-top: 107px;
+}
+.secpaddmm {
+  padding-top: 62px;
+}
+.secabuhomtext2 {
+  padding-top: 15px;
+}
+.secabuhomtext3{
+  padding-top: 70px;
+}
+}
+
+@media only screen and (max-width:320px) {
+  .secmainheader {
+    padding-top: 107px;
+}
+.secpaddmm {
+  padding-top: 15px;
+}
+.secabuhomtext2 {
+  padding-top: 0px;
+}
+.secabuhomtext3{
+  padding-top: 24px;
+}
 }
