@@ -419,12 +419,38 @@ button.btn.secsubbg {
   padding:  0px;
 }
 }
+@media only screen and (max-width:430px) {
+  .secexclbg {
+    background-position: top !important;
+    padding: 407px 0px 40px 0px !important;
+}
+.secexclbg2 {
+  background-position: top !important;
+  padding: 434px 0px 40px 0px !important;
+}
+.secexclbg3 {
+  background-position: top !important;
+  padding: 436px 0px 40px 0px !important;
+}
 
+}
 
 
 @media only screen and (max-width:425px) {
   .secmainheader {
     padding-top: 107px;
+}
+.secexclbg3 {
+  background-position: top !important;
+  padding: 306px 0px 40px 0px !important;
+}
+.secexclbg2 {
+  background-position: top !important;
+  padding: 349px 0px 40px 0px !important;
+} 
+.secexclbg {
+  background-position: top !important;
+  padding: 330px 0px 40px 0px !important;
 }
 .secpaddmm {
   padding-top: 109px;
