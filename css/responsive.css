@@ -1,3 +1,11 @@
+@media (min-width: 1300px) and (max-width: 2560px) {
+  .popup-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+}
+
 /* -------1920--------- */
 
 @media only screen and (min-width:1920px) {
@@ -58,41 +66,92 @@ button.btn.secsubbg {
   width: 28%;
 }
 }
+@media (min-width: 700px) and (max-width: 1299px) {
+  .popup-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}
+@media only screen and (max-width:1440px) {
 
-
-
-@media only screen and (max-width:1440px) {}
-
-
-/*  */
+}
 @media only screen and (max-width:991px) {
-  .secmiss {
-    font-size: 35px;
+  .navbar-brand {
+    width: 88% !important;
+    margin: 0;
+    padding: 0;
 }
-.secmibmar {
-  padding-left: 10px;
+  .offcanvas-header {
+    background: #715E78;
 }
-.secabuhomtext p {
-  font-size: 20px;
+.navbar-expand-xl .navbar-nav {
+  flex-direction: column;
+  display: flex
+;
+  justify-content: flex-end !important;
+}
+button.navbar-toggler {
+  padding: 20px 20px;
+}
+
+.navbar-nav>li>a {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  line-height: 40px;
+}
+div#navbarOffcanvas {
+  background: #dcbbdfe3;
+}
+  .popup-gallery img {
+    min-height: 150px;
+    max-height: 150px;
+  }
+  .sec-logo-img {
+    width: 31%;
+}
+.secmainheader {
+  padding-top: 190px;
+}
+
+.clearfix p {
+    color: #fff;
+    font-size: 25px;
+  }
+  .secfootbookbg {
+    padding: 50px 0px 50px 0px;
+}
+.secexclbg {
+  background-position: left ;
+  padding: 0;
+  background-image: none !important;
+}
+.secexcltext {
   padding-left: 0px;
+  padding-top: 30px;
+}
+.secexclbg2 {
+  background-position: left ;
+  padding: 0px;
+  padding-bottom: 30px;
+  background-image: none !important;
 }
 .secabuhomtext2 p {
-  font-size: 20px;
   padding-left: 0px;
+}
+.secexclbg3 {
+  background-position: right ;
+  padding:  0px;
+  background-image: none !important;
+  padding-bottom: 30px;
+}
+.secmibmar {
+  padding-left: 14px;
 }
 .secabuhomtext3 p {
-  font-size: 20px;
-  padding-left: 0px;
-}
-.secaboutbggal {
-  padding: 50px 10px;
+  padding-right: 0px;
 }
 }
-
-
-
-
-
 @media only screen and (max-width:768px) {
 
   div#navbarOffcanvas {
@@ -231,14 +290,17 @@ button.btn.secsubbg {
 .secexclbg {
   background-position: top !important;
   padding: 315px 0px 40px 0px !important;
+  background-image: url(../images/Exclusive-bgg.png) !important;
 }
 .secexclbg2 {
   background-position: top !important;
   padding: 358px 0px 40px 0px !important;
+  background-image: url(../images/Exclusive-bggabout.png) !important;
 }
 .secexclbg3 {
   background-position: top !important ;
   padding: 315px 0px 40px 0px !important;
+  background-image: url(../images/Exclusive-bggabout2.png) !important;
   
 }
 .secratigntab {
@@ -368,75 +430,6 @@ button.btn.secsubbg {
   padding-left: 10px;
 }
 }
-
-
-
-@media (min-width: 1300px) and (max-width: 2560px) {
-  .popup-gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-  }
-}
-
-@media (min-width: 700px) and (max-width: 1299px) {
-  .popup-gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-  }
-}
-
-@media (min-width: 300px) and (max-width: 699px) {
-  .popup-gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
-  }
-}
- 
-@media only screen and (max-width: 999px) {
-  .offcanvas-header {
-    background: #715E78;
-}
-.navbar-expand-xl .navbar-nav {
-  flex-direction: column;
-  display: flex
-;
-  justify-content: flex-end !important;
-}
-
-.navbar-nav>li>a {
-  padding-top: 0px;
-  padding-bottom: 20px;
-  line-height: 40px;
-}
-div#navbarOffcanvas {
-  background: #dcbbdfe3;
-}
-  .popup-gallery img {
-    min-height: 150px;
-    max-height: 150px;
-  }
-  .sec-logo-img {
-    width: 31%;
-}
-.secmainheader {
-  padding-top: 97px;
-}
-.secexclbg {
-  background-position: right ;
-  padding: 0;
-}
-.secexclbg2 {
-  background-position: left ;
-  padding: 0px;
-}
-.secexclbg3 {
-  background-position: right ;
-  padding:  0px;
-}
-}
 @media only screen and (max-width:430px) {
   .secexclbg {
     background-position: top !important;
@@ -450,10 +443,35 @@ div#navbarOffcanvas {
   background-position: top !important;
   padding: 436px 0px 40px 0px !important;
 }
-
+  .secmiss {
+    font-size: 35px;
 }
-
-
+.secmibmar {
+  padding-left: 10px;
+}
+.secabuhomtext p {
+  font-size: 20px;
+  padding-left: 0px;
+}
+.secabuhomtext2 p {
+  font-size: 20px;
+  padding-left: 0px;
+}
+.secabuhomtext3 p {
+  font-size: 20px;
+  padding-left: 0px;
+}
+.secaboutbggal {
+  padding: 50px 10px;
+}
+}
+@media (min-width: 300px) and (max-width: 699px) {
+  .popup-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+} 
 @media only screen and (max-width:425px) {
   .secmainheader {
     padding-top: 107px;
@@ -495,7 +513,6 @@ div#navbarOffcanvas {
   padding-top: 70px;
 }
 }
-
 @media only screen and (max-width:320px) {
   .secmainheader {
     padding-top: 107px;
