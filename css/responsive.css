@@ -396,6 +396,24 @@ button.btn.secsubbg {
 }
  
 @media only screen and (max-width: 999px) {
+  .offcanvas-header {
+    background: #715E78;
+}
+.navbar-expand-xl .navbar-nav {
+  flex-direction: column;
+  display: flex
+;
+  justify-content: flex-end !important;
+}
+
+.navbar-nav>li>a {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  line-height: 40px;
+}
+div#navbarOffcanvas {
+  background: #dcbbdfe3;
+}
   .popup-gallery img {
     min-height: 150px;
     max-height: 150px;
