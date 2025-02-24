@@ -72,9 +72,70 @@ button.btn.secsubbg {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
+  .secabuhomtext2 p {
+    font-size: 22px;
+  }
 }
-@media only screen and (max-width:1440px) {
+@media only screen and (max-width:1199px) {
+  .navbar-brand {
+    width: 88% !important;
+    margin: 0;
+    padding: 0;
+}
+  .offcanvas-header {
+    background: #715E78;
+}
+.navbar-expand-xl .navbar-nav {
+  flex-direction: column;
+  display: flex
+;
+  justify-content: flex-end !important;
+}
+button.navbar-toggler {
+  padding: 20px 20px;
+}
+div#navbarOffcanvas {
+  background: #dcbbdfe3;
+}
+.col-md-12.secppmm {
+  padding-left: 0;
+}
+.secabuhomtext2 p {
+  font-size: 22px;
+}
+}
 
+@media only screen and (max-width:1035px) {
+  .navbar-brand {
+    width: 88% !important;
+    margin: 0;
+    padding: 0;
+}
+  .offcanvas-header {
+    background: #715E78;
+}
+.navbar-expand-xl .navbar-nav {
+  flex-direction: column;
+  display: flex
+;
+  justify-content: flex-end !important;
+}
+button.navbar-toggler {
+  padding: 20px 20px;
+}
+div#navbarOffcanvas {
+  background: #dcbbdfe3;
+}
+button.btn.secsubbg {
+  font-size: 12px;
+}
+.secbooka {
+  font-family: 'Mogan';
+  font-size: 35px;
+}
+.secabuhomtext2 p , .secabuhomtext3 p {
+  font-size: 17px;
+}
 }
 @media only screen and (max-width:991px) {
   .navbar-brand {
@@ -160,7 +221,7 @@ div#navbarOffcanvas {
 
 
   .sec-logo-img {
-    width: 50%;
+    width: 33%;
   }
   button.navbar-toggler {
     border: 1px solid #715E78;
@@ -217,7 +278,7 @@ div#navbarOffcanvas {
   padding-top: 40px;
 }
 .secmainheader {
-  padding-top: 73px;
+  padding-top: 150px;
 }
 .secmainheader p {
   padding-top: 20px;
@@ -289,18 +350,18 @@ div#navbarOffcanvas {
 }
 .secexclbg {
   background-position: top !important;
-  padding: 315px 0px 40px 0px !important;
-  background-image: url(../images/Exclusive-bgg.png) !important;
+  padding: 0px 0px 40px 0px !important;
+  background-image:none;
 }
 .secexclbg2 {
   background-position: top !important;
-  padding: 358px 0px 40px 0px !important;
-  background-image: url(../images/Exclusive-bggabout.png) !important;
+  padding: 0px 0px 40px 0px !important;
+  background-image: none;
 }
 .secexclbg3 {
   background-position: top !important ;
-  padding: 315px 0px 40px 0px !important;
-  background-image: url(../images/Exclusive-bggabout2.png) !important;
+  padding: 0px 0px 40px 0px !important;
+  background-image: none;
   
 }
 .secratigntab {
@@ -433,15 +494,18 @@ div#navbarOffcanvas {
 @media only screen and (max-width:430px) {
   .secexclbg {
     background-position: top !important;
-    padding: 407px 0px 40px 0px !important;
+    padding: 0px 0px 40px 0px !important;
+}
+.sec-logo-img {
+  width: 54%;
 }
 .secexclbg2 {
   background-position: top !important;
-  padding: 434px 0px 40px 0px !important;
+  padding: 0px 0px 40px 0px !important;
 }
 .secexclbg3 {
   background-position: top !important;
-  padding: 436px 0px 40px 0px !important;
+  padding: 0px 0px 40px 0px !important;
 }
   .secmiss {
     font-size: 35px;
@@ -476,27 +540,31 @@ div#navbarOffcanvas {
   .secmainheader {
     padding-top: 107px;
 }
+.sec-logo-img {
+  width: 48% !important;
+}
 .secexclbg3 {
   background-position: top !important;
-  padding: 306px 0px 40px 0px !important;
+  padding: 0px 0px 40px 0px !important;
+  margin: 0px;
 }
 .secexclbg2 {
   background-position: top !important;
-  padding: 349px 0px 40px 0px !important;
+  padding: 0px 0px 40px 0px !important;
 } 
 .secexclbg {
   background-position: top !important;
-  padding: 330px 0px 40px 0px !important;
+  padding:0px 0px 40px 0px !important;
 }
 .secpaddmm {
   padding-top: 109px;
 }
 .secabuhomtext2 {
-  padding-top: 77px;
+  padding-top: 0px;
   width: 100%;
 }
 .secabuhomtext3{
-  padding-top: 112px;
+  padding-top: 11px;
 }
 }
 @media only screen and (max-width:375px) {
@@ -516,6 +584,9 @@ div#navbarOffcanvas {
 @media only screen and (max-width:320px) {
   .secmainheader {
     padding-top: 107px;
+}
+.sec-logo-img {
+  width: 60% !important;
 }
 .secpaddmm {
   padding-top: 15px;
