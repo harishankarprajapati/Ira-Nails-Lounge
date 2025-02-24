@@ -103,6 +103,9 @@ div#navbarOffcanvas {
 .secabuhomtext2 p {
   font-size: 22px;
 }
+.secexclbg {
+    background-image: url(../images/Exclusive-bgg1199.png) !important;
+}
 }
 
 @media only screen and (max-width:1035px) {
@@ -211,6 +214,12 @@ div#navbarOffcanvas {
 }
 .secabuhomtext3 p {
   padding-right: 0px;
+}
+.sec-sev-book-p{
+  text-align: start;
+}
+.col-lg-3.sec-cent-c {
+  text-align: end;
 }
 }
 @media only screen and (max-width:768px) {
