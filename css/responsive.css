@@ -106,6 +106,7 @@ div#navbarOffcanvas {
 .secexclbg {
     background-image: url(../images/Exclusive-bgg1199.png) !important;
 }
+
 }
 
 @media only screen and (max-width:1035px) {
@@ -158,6 +159,10 @@ button.btn.secsubbg {
 button.navbar-toggler {
   padding: 20px 20px;
 }
+.secboohroww{
+  display: flex;
+  flex-direction: column-reverse;
+}
 
 .navbar-nav>li>a {
   padding-top: 0px;
@@ -209,6 +214,9 @@ div#navbarOffcanvas {
   background-image: none !important;
   padding-bottom: 30px;
 }
+.row.m-0.secdesktop {
+  padding-bottom: 60px;
+}
 .secmibmar {
   padding-left: 14px;
 }
@@ -220,6 +228,12 @@ div#navbarOffcanvas {
 }
 .col-lg-3.sec-cent-c {
   text-align: end;
+}
+.secfootbookbg2 {
+  padding: 50px 50px 50px 50px;
+  margin: 20px 7px 7px 0px;
+  margin-right: 20px !important;
+  width: 98%;
 }
 }
 @media only screen and (max-width:768px) {
@@ -407,7 +421,9 @@ div#navbarOffcanvas {
   display: none;
 }
 .secfootbookbg2 {
-  padding: 50px 10px 100px 10px;
+  padding: 50px 10px 50px 10px;
+  width: 100%;
+  
 }
 .secfootbookbg {
   padding: 50px 0px;
@@ -416,7 +432,9 @@ div#navbarOffcanvas {
   padding: 0;
 }
 .secdesktop{
-  display: none;
+  display:flex;
+  flex-direction: column-reverse;
+  padding-bottom: 55px;
 }
 .secmobile{
   display: block;
@@ -432,9 +450,6 @@ div#navbarOffcanvas {
 }
 .secppmm{
   padding: 0;
-}
-.aectem2{
-  padding-left: 0px;
 }
 .secfooterlogo {
   width: 65%;
